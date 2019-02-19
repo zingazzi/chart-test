@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/chartist/dist/chartist.css",
         "styles.css"
       ],
       "scripts": [],
