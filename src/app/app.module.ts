@@ -9,11 +9,13 @@ import { ChartComponent } from './chart/chart.component';
 import { Routes, RouterModule } from '@angular/router';
 import { D3Component } from './d3/d3.component';
 import { ChartlistComponent } from './chartlist/chartlist.component';
+import { D3test2Component } from './d3test2/d3test2.component';
 
 const appRoutes: Routes = [
   { path: '', component: D3Component },
   { path: 'chart', component: ChartComponent },
   { path: 'chartlist', component: ChartlistComponent },
+  { path: 'd3', component: D3test2Component },
 ];
 
 @NgModule({
@@ -21,7 +23,8 @@ const appRoutes: Routes = [
     AppComponent,
     ChartComponent,
     D3Component,
-    ChartlistComponent
+    ChartlistComponent,
+    D3test2Component
   ],
   imports: [
     BrowserModule,
